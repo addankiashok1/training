@@ -2,7 +2,7 @@ from db_connect import *
 
 def creat_table(conn):
     # Creating tabale in database
-    print("Inside create_table")
+    print("Inside create_table from naveen branch")
     cur = conn.cursor()
     query = """CREATE TABLE employee (id INT NOT NULL, first_name VARCHAR(255),
     last_name VARCHAR(100), email VARCHAR(150),
